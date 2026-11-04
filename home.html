@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Foot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <a href="home.html" class="title">👣 LITTLE FOOT 👣</a>
+        <button class="cart-button" id="cart-button" type="button" aria-label="Open shopping cart">
+            🛒 Cart (<span id="cart-count">0</span>)
+        </button>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p>THE EVERYDAY COLLECTION</p>
+                <h1>Less, but <br>better.</h1>
+                <p>Thoughtful essentials for your everyday wardrobe.</p>
+                <a href="#products" class="shop-button">Explore collection</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/shoes.jpg" alt="Children's shoes collection">
+            </div>
+        </section>
+
+        <section class="products-section" id="products">
+            <div class="section-heading">
+                <div>
+                    <h2>Featured pieces</h2>
+                </div>
+                <p>Simple pieces. Endlesss possibilities.</p>
+            </div>
+            <div class="product-grid" id="product-grid"></div>
+        </section>
+
+        <section class="about" id="about">
+            <p class="about-label">OUR PHILOSOPHY</p>
+            <h2>Made for your everyday.</h2>
+            <p class="about-tag">Good design doesn't need to be complicated.</p>
+            <p class="about-statement">At LITTLE FOOT, we believe little ones deserve comfort, thoughtful design and a touch of uniqueness.</p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Little Foot. JavaScript Project</p>
+    </footer>
+
+    <div class="cart-notification" id="cart-notification"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
