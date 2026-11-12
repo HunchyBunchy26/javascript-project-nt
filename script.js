@@ -47,6 +47,10 @@ const productGrid = document.getElementById("product-grid");
 
 const cartCount = document.getElementById("cart-count");
 const cartButton = document.getElementById("cart-button");
+
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
 const cartNotification = document.getElementById("cart-notification");
 
 const cartDrawer = document.getElementById("cart-drawer");
@@ -274,4 +278,11 @@ cartItems.addEventListener("click", function(event) {
         const index = event.target.dataset.index;
         removeFromCart(index);
     }
+});
+
+// MENU TOGGLES FOR MOBILE VIEW //
+menuToggle.addEventListener("click", function() {
+    navLinks.classList.toggle("open");
+    const isOpen = navLinks.classList.contains("open");
+    menuToggle.setAttribute("aria-expanded", isOpen);
 });
