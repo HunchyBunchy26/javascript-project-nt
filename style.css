@@ -10,7 +10,7 @@
     --green: #465442;
     --muted: #77786f;
     --white: #ffffff;
-    --light-grey: #eeeeee;
+    --light-grey: #dddddd;
     --med-grey: #555555;
 }
 
@@ -530,6 +530,82 @@ footer p {
     font-size: 11px;
     text-align: center;
     color: var(--muted);
+}
+
+/* CONTACT PAGE FORM */
+.contact-section {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 80px 5%;
+}
+
+.contact-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-heading > p :first-child {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: var(--green);
+}
+
+.contact-heading h1 {
+    font-size: 34px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.contact-heading > p :last-child {
+    font-size: 15px;
+    color: var(--med-grey);
+    line-height: 1.6;
+}
+
+.form-group {
+    margin-bottom: 22px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: var(--med-grey);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--light-grey);
+    border-radius: 6px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--green);
+}
+
+.contact-submit {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    background: var(--green);
+    color: var(--white);
+    font-size: 15px;
+    transition: background 0.2s ease;
+}
+
+.contact-submit:hover {
+    background: var(--dark);
+}
+
+#form-feedback {
+    margin-top: 18px;
+    font-size: 14px;
+    text-align: center;
 }
 
 /* MOBILE LAYOUT */
