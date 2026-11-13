@@ -113,3 +113,15 @@ Product and visual images were sourced from Unsplash, using photographs availabl
 ## GitHub Link
 
 https://github.com/HunchyBunchy26/javascript-project-nt.git
+
+
+## Previous Failed Commitments
+
+* Featured poducts added with Price and Add to Cart button and Styled
+* Cart button styled and Cart count added
+* Added Cart notification if Cart is zero quantity
+* Cart Drawer with quanities calculation created
+* Total calculation and Remove added. Cart Items layout organised
+* Added empty bag message once all items removed
+* Added colour selector on each product and connected to the Cart
+* Styling adjusted for Colour and Size selector
