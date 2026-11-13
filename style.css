@@ -8,10 +8,11 @@
     --cream: #f7f5f0;
     --dark: #262923;
     --green: #465442;
+    --dark-green: #303b2e;
     --muted: #77786f;
     --white: #ffffff;
     --light-grey: #dddddd;
-    --med-grey: #555555;
+    --mild-grey: #555555;
 }
 
 body {
@@ -125,7 +126,7 @@ p {
 }
 
 .shop-button:hover {
-    background: #303b2e;
+    background: var(--dark-green);
 }
 
 /* FEATURED PRODUCTS SECTION */
@@ -263,7 +264,7 @@ p {
 }
 
 .add-to-cart:hover {
-    background: var(--dark);
+    background: var(--dark-green);
 }
 
 /* CART BUTTON */
@@ -274,7 +275,7 @@ p {
     padding: 9px 14px;
     border: 1px solid transparent;
     background: transparent;
-    color: var(--dark);
+    color: var(--green);
     font-family: inherit;
     font-size: 14px;
     cursor: pointer;
@@ -282,7 +283,7 @@ p {
 }
 
 .cart-button:hover {
-    color: var(--green);
+    color: var(--dark-green);
     border-color: var(--green);
 }
 
@@ -426,14 +427,14 @@ p {
     width: 100%;
     padding: 14px;
     border: none;
-    background: var(--dark);
+    background: var(--green);
     color: var(--white);
     font-size: 17px;
     transition: background 0.2s ease;
 }
 
 .checkout-button:hover {
-    background: var(--green);
+    background: var(--dark-green);
 }
 
 /* CART OVERLAY */
@@ -599,7 +600,7 @@ footer p {
 }
 
 .contact-submit:hover {
-    background: var(--dark);
+    background: var(--dark-green);
 }
 
 #form-feedback {
