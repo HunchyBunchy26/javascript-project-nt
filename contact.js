@@ -15,4 +15,15 @@ contactForm.addEventListener("submit", function(event) {
         return;
     }
 
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!emailPattern.test(email)) {
+        formFeedback.textContent = "Please enter a valid email address.";
+        return;
+    }
+
+    formFeedback.textContent = "Thank you for contacting LITTLE FOOT! Your message has been received.";
+
+    contactForm.reset();
+
 });
